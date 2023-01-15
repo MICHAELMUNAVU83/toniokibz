@@ -28,7 +28,7 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
         <section className=" p-10">
           <div className="flex flex-col ">
-            <h1 className="text-5xl font-burtons text-center bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl  text-center bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
               Tonio Kibz
             </h1>
             <p className="text-1xl font-light text-center leading-8 text-gray-800 ">
