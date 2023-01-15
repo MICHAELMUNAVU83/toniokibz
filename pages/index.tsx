@@ -1,19 +1,13 @@
 import Head from "next/head";
 
-import {
-  AiFillInstagram,
-  AiFillMail,
-  AiFillPhone,
-  AiFillYoutube,
-} from "react-icons/ai";
+import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
+import { IoCall } from "react-icons/io5";
 
 import { BsSpotify } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
 import Image from "next/image";
 import kibzpic from "../public/kibz.png";
 import podcast from "../public/sandwich.jpeg";
-import camera1 from "../public/camera1.png";
-import camera2 from "../public/camera2.png";
 import camera3 from "../public/camera3.png";
 import emoji from "../public/emoji.png";
 
@@ -28,21 +22,21 @@ export default function Home() {
       <main className="flex flex-col items-center justify-center min-h-screen py-2">
         <section className=" p-10">
           <div className="flex flex-col ">
-            <h1 className="text-5xl  text-center bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
+            <h1 className="text-5xl bakbak-font text-center bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
               Tonio Kibz
             </h1>
-            <p className="text-1xl font-light text-center leading-8 text-gray-800 ">
+            <p className="text-1xl italian-font font-light text-center leading-8 text-gray-800 ">
               Content Creator / Podcaster
             </p>
           </div>
 
-          <div className="flex justify-center mt-10 text-gray-500 ">
+          <div className="flex justify-center mt-10 text-blue-500 ">
             <ul className="flex items-center space-x-5">
               <li>
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://instagram.com/georgekimani_?igshid=YmMyMTA2M2Y="
+                  href="https://instagram.com/tonio_kibz?igshid=YmMyMTA2M2Y="
                 >
                   <AiFillInstagram className="cursor-pointer text-3xl" />
                 </a>
@@ -51,7 +45,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://wa.me/254714466144 "
+                  href="https://wa.me/254718475564 "
                 >
                   <RiWhatsappFill className="cursor-pointer text-3xl" />
                 </a>
@@ -61,7 +55,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://www.instagram.com/georgekimani_/?hl=en"
+                  href="https://www.youtube.com/@sandwichpodcastke"
                 >
                   <AiFillYoutube className="cursor-pointer text-3xl" />
                 </a>
@@ -70,9 +64,9 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="mailto: gnkimani93@gmail.com"
+                  href="https://open.spotify.com/show/6rA2ixTUZnIPWQu58qZf8L"
                 >
-                  <AiFillMail className="cursor-pointer text-3xl" />
+                  <BsSpotify className="cursor-pointer text-3xl" />
                 </a>
               </li>
               <li>
@@ -81,7 +75,7 @@ export default function Home() {
                   rel="noopener noreferrer"
                   href="tel:0714466144"
                 >
-                  <AiFillPhone className="cursor-pointer text-3xl" />
+                  <IoCall className="cursor-pointer text-3xl" />
                 </a>
               </li>
             </ul>
@@ -104,13 +98,13 @@ export default function Home() {
           <div>
             <p className="text-gray-500 text-md leading-8">
               My name is Tonio Kibz, I am a content creator and podcaster.
-              <span className="text-blue-500"> I love creating content </span>
+              <span className="text-blue-500 italic-font"> I love creating content </span>
               and sharing my ideas with the world {"  "}
-              <span className="text-blue-500">on the Sandwich Podcast </span>
+              <span className="text-blue-500 italic-font">on the Sandwich Podcast </span>
             </p>
           </div>
 
-          <h3 className="text-3xl font-bold text-center mt-10 bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
+          <h3 className="text-3xl sofia-font font-bold text-center mt-10 bg-gradient-to-r from-teal-500 via-blue-300 to-blue-500 bg-clip-text text-transparent">
             WHAT I DO
           </h3>
 
@@ -128,7 +122,7 @@ export default function Home() {
               <h3 className="text-xl">Podcasting</h3>
               <p className="text-gray-500 text-md leading-8">
                 I am the co host of the{" "}
-                <span className="text-blue-500">
+                <span className="text-blue-500 italian-font">
                   the biggest podcast in Kenya{" "}
                 </span>
                 The Sandwich Podcast .
@@ -139,8 +133,9 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-2xl mx-1"
+                  href="https://open.spotify.com/show/6rA2ixTUZnIPWQu58qZf8L"
                 >
-                  <BsSpotify className="cursor-pointer text-blue-500" />
+                  <BsSpotify className="cursor-pointer text-blue-500 " />
                 </a>
               </div>
             </div>
@@ -158,7 +153,7 @@ export default function Home() {
               <h3 className="text-xl">Video Content Creation</h3>
               <p className="text-gray-500 text-md leading-8">
                 I create funny content for{" "}
-                <span className="text-teal-500">Youtube and Instagram </span>
+                <span className=" italian-font text-blue-500">Youtube and Instagram </span>
                 that is engaging and entertaining.
               </p>
               <div className="flex justify-center mt-5 flex-row">
@@ -167,6 +162,7 @@ export default function Home() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-2xl mx-1"
+                  href="https://instagram.com/tonio_kibz?igshid=YmMyMTA2M2Y="
                 >
                   <AiFillInstagram className="cursor-pointer text-blue-500" />
                 </a>
@@ -180,7 +176,7 @@ export default function Home() {
               <h3 className="text-xl">Video Editing</h3>
               <p className="text-gray-500 text-md leading-8">
                 I edit videos for{" "}
-                <span className="text-blue-500">The Sandwich Podcast </span>
+                <span className="text-blue-500 italian-font">The Sandwich Podcast </span>
                 and for my vine videos on Instagram.
               </p>
               <div className="flex justify-center mt-5 flex-row">
@@ -188,9 +184,10 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
+                  href="https://www.youtube.com/@sandwichpodcastke"
                   className="text-2xl mx-1"
                 >
-                  <AiFillYoutube className="cursor-pointer text-blue-500" />
+                  <AiFillYoutube className="cursor-pointer italian-font text-blue-500" />
                 </a>
               </div>
             </div>
