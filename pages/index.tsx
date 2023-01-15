@@ -1,8 +1,6 @@
 import Head from "next/head";
-
 import { AiFillInstagram, AiFillYoutube } from "react-icons/ai";
 import { IoCall } from "react-icons/io5";
-
 import { BsSpotify } from "react-icons/bs";
 import { RiWhatsappFill } from "react-icons/ri";
 import Image from "next/image";
