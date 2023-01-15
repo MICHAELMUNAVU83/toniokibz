@@ -43,7 +43,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="https://wa.me/254718475564 "
+                  href="https://wa.me/254718475564"
                 >
                   <RiWhatsappFill className="cursor-pointer text-3xl" />
                 </a>
@@ -71,7 +71,7 @@ export default function Home() {
                 <a
                   target="_blank"
                   rel="noopener noreferrer"
-                  href="tel:0714466144"
+                  href="tel:0718475564"
                 >
                   <IoCall className="cursor-pointer text-3xl" />
                 </a>
