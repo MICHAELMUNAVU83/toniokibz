@@ -98,9 +98,14 @@ export default function Home() {
           <div>
             <p className="text-gray-500 text-md leading-8">
               My name is Tonio Kibz, I am a content creator and podcaster.
-              <span className="text-blue-500 italic-font"> I love creating content </span>
+              <span className="text-blue-500 sofia-font">
+                {" "}
+                I love creating content{" "}
+              </span>
               and sharing my ideas with the world {"  "}
-              <span className="text-blue-500 italic-font">on the Sandwich Podcast </span>
+              <span className="text-blue-500 sofia-font">
+                on the Sandwich Podcast{" "}
+              </span>
             </p>
           </div>
 
@@ -153,7 +158,9 @@ export default function Home() {
               <h3 className="text-xl">Video Content Creation</h3>
               <p className="text-gray-500 text-md leading-8">
                 I create funny content for{" "}
-                <span className=" italian-font text-blue-500">Youtube and Instagram </span>
+                <span className=" italian-font text-blue-500">
+                  Youtube and Instagram{" "}
+                </span>
                 that is engaging and entertaining.
               </p>
               <div className="flex justify-center mt-5 flex-row">
@@ -176,7 +183,9 @@ export default function Home() {
               <h3 className="text-xl">Video Editing</h3>
               <p className="text-gray-500 text-md leading-8">
                 I edit videos for{" "}
-                <span className="text-blue-500 italian-font">The Sandwich Podcast </span>
+                <span className="text-blue-500 italian-font">
+                  The Sandwich Podcast{" "}
+                </span>
                 and for my vine videos on Instagram.
               </p>
               <div className="flex justify-center mt-5 flex-row">
